@@ -1,0 +1,181 @@
+html {
+        height: 100%;
+        overflow: hidden;
+    }
+body{
+	font-family: Fahkwang, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0px;
+	margin: 0px;
+	 height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        perspective: 1px;
+}
+.break{
+	max-width: 1380px;
+}
+
+/*NAVIGATION*/
+.bg-img{
+	background-image: url(../pic/AB2.gif);
+	min-height: 900px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.navbar{
+}
+.navbar-nav .nav-item{
+	margin-right: 45px;
+}
+.navbar-nav .nav-item a:link,.navbar-nav .nav-item a:visited{
+	font-size: 16px;
+	color: #f7f5f2;
+}
+.navbar-nav .nav-item a:hover{
+	color: #c74f80;
+}
+
+.icon a:link, .icon a:visited{
+	display: inline-block;
+	position: relative;
+	margin-left: 30px;
+	color: #f7f5f2;
+	font-size: 20px;
+	transition:  all 0.3s ease-in-out;
+}
+.icon a:hover{
+	color: #f7f5f2;
+	transform: scale(1.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.darkbg{
+	background-image: url(../pic/abg.jpg);
+	min-height: 5000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.absolut{
+	position: relative;
+	margin: 0px auto;
+}
+.absolut h1{
+	font-family: Monstellar;
+	text-align: center;
+	color: #f7f5f2;
+}
+.absolut hr{
+	transform: rotate(90deg);
+}
+.image{
+	position:absolute;
+}
+    
+.img1{
+	left: 12%;
+	top: 520px;
+}
+.img2{
+	right: 12%;
+	top: 800px;
+}
+.img3{
+	left: 12%;
+	top: 1190px;
+	z-index: 2;	
+} 
+.img4{
+	right: 12%;
+	top: 1470px;
+	z-index: 2;		
+}
+
+
+.letter{
+	position: absolute;
+	z-index: 1;
+	font-family: Futura XBlkCn BT, sans-serif;
+	color: #f7f5f2;
+	font-size: 256px;
+	pointer-events:none;
+}
+.letterA{
+	left: 2%;
+	top: 690px;
+}
+.letterB{
+	left: 16%;
+	top: 1120px;
+}
+.letterS{
+	left: 40%;
+	top: 900px;
+	z-index: 0;
+} 
+.letterO{
+	left: 47%;
+	top: 1700px;
+	z-index: 3;
+}
+.letterL{
+	right: 30%;
+	top: 530px;
+}
+.letterU{
+	right: 16%;
+	top: 1390px;
+}
+.letterT{
+	right: 2%;
+	top: 1000px;
+	z-index: 3;
+}
+.dreamlight{
+	margin-top: 2300px;
+}
+.hrbanner3{
+	width: 40%;
+	background-color: #f7f5f2;
+	border: 1px solid #f7f5f2;
+	border-radius: 5px;
+	margin-bottom: 200px;
+}
+
+.banner3{
+	position: relative;
+	text-align: center;
+	color: #f7f5f2;
+}
+
+.banner3 img{
+	position: relative;
+}
+.banner3 h1{
+	font-family: Fonthead;
+	font-size: 50px;
+}
+.banner3 .dream{
+	position: absolute;
+	top: -5%;
+	left: 12%;
+}
+.banner3 .cock{
+	position: absolute;
+	top: 5%;
+	left: 28%;
+}
+
+.textbanner3{
+	text-align: left;
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	padding-right: 6%;
+	padding-left: 60%;
+}
